@@ -3,25 +3,26 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>TeamGroupArtChallenge</title>
+	<title>#TeamGroupArtChallenge</title>
 
 	<meta name="viewport" content="width=device-wodth, initial-scale=1">
 	<!-- meta -->
-	<meta name="Description" content="">
-	<meta name="Keywords" content="">
+	<meta name="Description"
+		content="Accept the challenge from TEAMGROUP Draw your favorite TEAM’ product in a theme of Chinese New Year">
+	<meta name="Keywords"
+		content="TeamGroup, Team Group, Team, memoria, disco duro, SSD, Delta RGB memoria, Xtreem ARGB, RAM, m.2, T-Force, Tforce, memorya para gamers, sorteo, arte">
 
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="">
-	</meta>
-	<meta property="og:url" content="">
-	</meta>
+	<meta property="og:title" content="#TeamGroupArtChallenge">
+	<meta property="og:url" content="https://www.teamgroupinc.com/en/events/20220114_teamartchallenge">
 	<!-- 網址記得更換 -->
 	<meta property="og:image" content="https://www.teamgroupinc.com/en/events/20220114_teamartchallenge/images/share.jpg">
-	</meta>
 	<meta property="og:description" content="">
-	</meta>
 
 	<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+
+	<!--IOS系統數字會自動判讀為藍色並且為tel連結，加這段可自動修正-->
+	<meta name="format-detection" content="telephone=no">
 
 	<!-- GoogleFonts & GoogleIcons -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -44,19 +45,27 @@
 		integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
 		crossorigin="anonymous"></script>
 
+
+
 	<!-- Hover.css -->
-	<link rel="stylesheet" type="text/css" href="hover.css">
+	<link rel="stylesheet" type="text/css" href="css/hover.css">
 	<!-- Animate.css -->
-	<link rel="stylesheet" type="text/css" href="animate.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<!-- jquery -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
 	<!-- Wow.js -->
-	<script src="wow.js"></script>
+	<script src="js/wow.js"></script>
 	<script>
 		new WOW().init();
 	</script>
 	<!-- Wow.js end -->
 
+	<!-- Custom JS-->
+	<script src="js/custom.js"></script>
+
 	<!-- Custom css -->
-	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="css/HF.css">
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 
 
 	<!-- Google Tag Manager -->
@@ -73,31 +82,26 @@
 	<!-- End Google Tag Manager -->
 
 	<!-- Facebook Pixel Code -->
-<script>
-	!function(f,b,e,v,n,t,s)
-	{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-	n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-	if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-	n.queue=[];t=b.createElement(e);t.async=!0;
-	t.src=v;s=b.getElementsByTagName(e)[0];
-	s.parentNode.insertBefore(t,s)}(window, document,'script',
-	'https://connect.facebook.net/en_US/fbevents.js');
-	fbq('init', '459560828708895');
-	fbq('track', 'PageView');
+	<script>
+		!function (f, b, e, v, n, t, s) {
+			if (f.fbq) return; n = f.fbq = function () {
+				n.callMethod ?
+				n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+			};
+			if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+			n.queue = []; t = b.createElement(e); t.async = !0;
+			t.src = v; s = b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t, s)
+		}(window, document, 'script',
+			'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '459560828708895');
+		fbq('track', 'PageView');
 	</script>
 	<noscript><img height="1" width="1" style="display:none"
-	src="https://www.facebook.com/tr?id=459560828708895&ev=PageView&noscript=1"
-	/></noscript>
+			src="https://www.facebook.com/tr?id=459560828708895&ev=PageView&noscript=1" /></noscript>
 	<!-- End Facebook Pixel Code -->
-	
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
 
-	<script type="text/javascript">
-		$(document).ready(function () {
-			$("#header_box").load("Header.html");
-			$("#footer_box").load("Footer.html");
-		});
-	</script>
+
 </head>
 
 <body>
@@ -109,14 +113,60 @@
 	<!-- End Google Tag Manager (noscript) -->
 
 	<!-- 頂部區塊 -->
-	<header id="header_box"></header>
+	<header class="text-white bg-dark">
+		<div class="container">
+			<div class="d-flex justify-content-center">
+				<a class="teamlogo d-block" href="https://www.teamgroupinc.com/en/" target="_blank">
+					<img src="images/HF/teamlogo.png" alt="Teamlogo">
+				</a>
+			</div>
+		</div>
+	</header>
 
 	<!-- 中間區塊 -->
-	<section>
-		
+	<section class="KV_Box">
+		<div class="kv_content">
+			<img src="images/lantern_r.png" alt="">
+			<img src="images/tigre.png" class="Item_img_03" alt="">
+		</div>
 	</section>
 
 	<!-- 底部區塊 -->
-	<footer id="footer_box"></footer>
+	<footer class="text-white bg-dark">
+		<div class="container">
+			<div class="d-flex justify-content-center">
+				<a class="d-block teamlogo" href="https://www.teamgroupinc.com/en/" target="_blank">
+					<img src="images/HF/teamlogo.png" alt="Teamlogo">
+				</a>
+			</div>
+
+			<div class="socialmedia d-flex justify-content-center pb-2">
+				<a class="d-block socialmedia_btn" href="https://twitter.com/teamgroupinc/" target="_blank">
+					<img src="images/HF/twitter.png" alt="teamgroupinc twitter">
+				</a>
+				<a class="d-block socialmedia_btn" href="https://www.instagram.com/teamgroupinc/" target="_blank">
+					<img src="images/HF/ig.png" alt="teamgroupincde ig">
+				</a>
+				<a class="d-block socialmedia_btn" href="https://facebook.com/teamgroupinc/" target="_blank">
+					<img src="images/HF/fb.png" alt="teamgroupincde facebook">
+				</a>
+				<!-- <a class="d-block socialmedia_btn" href="https://t.me/teamgroupinc" target="_blank">
+					<img src="images/HF/telegram.png" alt="teamgroupinc telegram">
+				</a>
+				<a class="d-block socialmedia_btn" href="https://www.youtube.com/channel/UC_V2wCfPGl5F-H7XxMhQnow"
+					target="_blank">
+					<img src="images/HF/yt.png" alt="teamgroupinc YouTube">
+				</a>
+				<a class="d-block socialmedia_btn" href="https://www.reddit.com/r/teamgroupinc/" target="_blank">
+					<img src="images/HF/reddit.png" alt="teamgroupinc Reddit">
+				</a>
+				<a class="d-block socialmedia_btn"
+					href="https://www.tiktok.com/@teamgroupinc?lang=en&is_copy_url=1&is_from_webapp=v1" target="_blank">
+					<img src="images/HF/tiktok.png" alt="teamgroupinc Tik Tok">
+				</a> -->
+			</div>
+		</div>
+	</footer>
 </body>
+
 </html>

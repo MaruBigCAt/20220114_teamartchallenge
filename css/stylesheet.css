@@ -1,0 +1,55 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+a[type="button"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+body {
+  font-family: 'Stardos Stencil', 'Merriweather','Open Sans','sans-serif';
+  font-family: 'Roboto', 'Open Sans', sans-serif;
+  color: #555;
+  background-image: url(../images/Bg.jpg);
+  background-repeat: repeat-y;
+}
+
+.pc {
+  display: block;
+}
+
+.mobile {
+  display: none;
+}
+
+.bg-dark {
+  background-color: #101621;
+}
+
+.KV_Box {
+  position: relative;
+}
+
+.kv_content {
+  position: absolute;
+  overflow: hidden;
+}
+
+.Item_img_03 {
+  position: absolute;
+  width: 1116px;
+  height: 883px;
+  left: 964px;
+  top: 110px;
+}
+
+
