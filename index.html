@@ -86,7 +86,7 @@
 		!function (f, b, e, v, n, t, s) {
 			if (f.fbq) return; n = f.fbq = function () {
 				n.callMethod ?
-				n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+					n.callMethod.apply(n, arguments) : n.queue.push(arguments)
 			};
 			if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
 			n.queue = []; t = b.createElement(e); t.async = !0;
@@ -151,16 +151,22 @@
 			<div class="row d-flex justify-content-center">
 				<div class="col-12">
 					<h1 class="ContBox_Title_01">Sobre el Desafío Artístico de TeamGroup</h1>
-					<p class="ContBox_content_01">Se acerca el Año Nuevo Chino y queremos celebrarlo contigo lanzando nuestro Desafío Artístico. 
-						Dibuja tu producto favorito de TeamGroup con el tema del Año Nuevo Chino y súbelo a tu página 
-						de Instagram o Twitter antes del 28 de enero. Las mejores obras de arte aparecerán en nuestras 
+					<p class="ContBox_content_01 fs-4">Se acerca el Año Nuevo Chino y queremos celebrarlo contigo lanzando nuestro
+						Desafío Artístico.
+						Dibuja tu producto favorito de TeamGroup con el tema del Año Nuevo Chino y súbelo a tu página
+						de Instagram o Twitter antes del 28 de enero. Las mejores obras de arte aparecerán en nuestras
 						redes sociales y las mejores recibirán un premio de nuestra parte</p>
 					<ul class="StepBox">
-						<li>Paso 1. ¿Cuál es tu producto favorito de TeamGroup? </li>
-						<li>Paso 2. Dibújalo con el tema del Año Nuevo Chino es el Tigre.</li>
-						<li>Paso 3. Súbelo a tu Twitter o Instagram etiquetando a @teamgroupinces y con el hashtag #TeamGroupArtChallenge</li>
-						<li>Paso 4. El 28 de enero elegimos las mejores obras de arte y anunciaremos al ganador</li>
-						<li>Paso 5. El ganador recibe el premio</li>
+						<li id="Step01"><span class="fw-bold fs-4">Paso 1.</span><span class="fs-5"> &nbsp; ¿Cuál es tu producto
+								favorito de TeamGroup? </li></span>
+						<li id="Step02"><span class="fw-bold fs-4">Paso 2.</span><span class="fs-5"> &nbsp; Dibújalo con el tema del
+								Año Nuevo Chino es el Tigre.</li></span>
+						<li id="Step03"><span class="fw-bold fs-4">Paso 3.</span><span class="fs-5"> &nbsp; Súbelo a tu Twitter o
+								Instagram etiquetando a @teamgroupinces y con el hashtag#TeamGroupArtChallenge</li></span>
+						<li id="Step04"><span class="fw-bold fs-4">Paso 4.</span><span class="fs-5"> &nbsp; El 28 de enero elegimos
+								las mejores obras de arte y anunciaremos al ganador</li></span>
+						<li id="Step05"><span class="fw-bold fs-4">Paso 5.</span><span class="fs-5"> &nbsp; El ganador recibe el
+								premio</li></span>
 					</ul>
 				</div>
 			</div>
@@ -207,25 +213,70 @@
 			<div class="Prodcut_Box">
 				<div class="row Prodcut_ItemBox">
 					<div class="col-6">
-						<img src="images/Prodcut_Item_01.png" alt="">
+						<div class="card Prodcut_Item_01">
+							<div class="Card_Img">
+								<img src="images/product/01.png" class="card-img-top" alt="...">
+							</div>
+							<div class="card_body">
+								<h2 class="card-title">Cardea A440 PRO<br>SSD para PS5</h2>
+								<a href="#" class="btn card_btn btn-lg">Read More</a>
+							</div>
+						</div>
 					</div>
 					<div class="col-6">
-						<img src="images/Prodcut_Item_02.png" alt="">
-					</div>	
+						<div class="card Prodcut_Item_02">
+							<div class="Card_Img">
+								<img src="images/product/02.png" class="card-img-top" alt="...">
+							</div>
+							<div class="card_body">
+								<h2 class="card-title">Xtreem ARGB White<br>DDR4 para gamers </h2>
+								<a href="#" class="btn card_btn btn-lg">Read More</a>
+							</div>
+						</div>
+					</div>
 				</div>
 				<div class="row Prodcut_ItemBox">
 					<div class="col-4">
-						<img src="images/Prodcut_Item_03.png" alt="">
+						<div class="card Prodcut_Item_03">
+							<div class="card_header">
+								<h2 class="card-title_02">M200 Portátil SSD<br>para todos</h2>
+							</div>
+							<div class="Card_Img_02">
+								<img src="images/product/03.png" class="card-img-top" alt="...">
+							</div>
+							<div class="card_body">
+								<a href="#" class="btn card_btn_02 btn-lg">Read More</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-4" style="background: linear-gradient(-180deg, rgb(198 117 57 / 98%) 0%,rgb(212 152 106 / 85%) 50%, rgb(219 168 130) 100%);border-radius: 6px;padding: 0;">
+						<div class="card Prodcut_Item_04">
+							<div class="card_header">
+								<h2 class="card-title_02">Delta RGB DDR5 para la actualización definitiva</h2>
+							</div>
+							<div class="Card_Img_03">
+								<img src="images/product/04.png" class="card-img-top" alt="...">
+							</div>
+							<div class="card_body">
+								<a href="#" class="btn card_btn_02 btn-lg">Read More</a>
+							</div>
+						</div>
 					</div>
 					<div class="col-4">
-						<img src="images/Prodcut_Item_04.png" alt="">
-					</div>
-					<div class="col-4">
-						<img src="images/Prodcut_Item_05.png" alt="">
+						<div class="card Prodcut_Item_05">
+							<div class="card_header">
+								<h2 class="card-title_02">ZEUS So-Dimm DDR4 creadas para gamers</h2>
+							</div>
+							<div class="Card_Img_03">
+								<img src="images/product/05.png" class="card-img-top" alt="...">
+							</div>
+							<div class="card_body">
+								<a href="#" class="btn card_btn_02 btn-lg">Read More</a>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
 	</section>
 
 	<!-- 底部區塊 -->

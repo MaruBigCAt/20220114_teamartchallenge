@@ -172,20 +172,47 @@ body {
 
 .ContBox_content_01 {
   font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 30px;
   color: #555;
+  margin-bottom: 40px;
 }
 
 .ContBox_01 ul li {
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 22px;
-  line-height: 90px;
   color: #A7231A;
+  color: #A7231A;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.StepBox li::before {
+  content: "";
+  width: 100px;
+  height: 63px;
+  display: block;
+  margin-right: 30px;
+}
+
+#Step01::before {
+  content: "";
+  background: url("../images/icon_01.png") no-repeat;
+  /* content: url("../images/icon_01.png"); */
+  /* list-style-position: inside;
+  list-style-image: url("../images/icon_01.png"); */
+} 
+#Step02::before {
+  content: url("../images/icon_02.png");
+}
+
+#Step03::before {
+  content: url("../images/icon_03.png");
+}
+
+#Step04::before {
+  content: url("../images/icon_04.png");
+}
+
+#Step05::before {
+  content: url("../images/icon_05.png");
 }
 
 .IG_Post {
@@ -216,30 +243,137 @@ body {
 }
 
 .Prodcut_ItemBox {
+  position: relative;
   margin-bottom: 30px;
 }
 
-.StepBox li:nth-child(1) {
-  list-style-position: inside;
-  list-style-image: url("../images/icon_01.png");
-} 
-
-.StepBox li:nth-child(2) {
-  list-style-position: inside;
-  list-style-image: url("../images/icon_02.png");
+.Prodcut_Item_01 {
+  background-image: url(../images/product/ItemBg_01.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: transparent;
+  border: 0;
+  width: 100%;
+  max-width: 540px;
+  height: 350px;
+  position: relative;
+  margin-bottom: 30px;
+  margin: 0 auto;
+}
+.Card_Img {
+  width: 90%;
+  position: relative;
+  margin: 0 auto;
+}
+/* .card_body {
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+} */
+.card_body {
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 20px;
+  left: 28%;
+}
+.card-title {
+  color: #6B370F;
+  font-family: 'Merriweather', serif;
+  margin-bottom: 24px;
+}
+.card_btn {
+  color: #fff;
+  background-color: #C7793D;
 }
 
-.StepBox li:nth-child(3) {
-  list-style-position: inside;
-  list-style-image: url("../images/icon_03.png");
+.Prodcut_Item_02 {
+  background-image: url(../images/product/ItemBg_02.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: transparent;
+  border: 0;
+  width: 100%;
+  max-width: 540px;
+  height: 350px;
+  position: relative;
+  margin-bottom: 30px;
+  margin: 0 auto;
 }
 
-.StepBox li:nth-child(4) {
-  list-style-position: inside;
-  list-style-image: url("../images/icon_04.png");
+.Prodcut_Item_03 {
+  background-image: url(../images/product/ItemBg_03.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: transparent;
+  border: 0;
+  width: 100%;
+  max-width: 350px;
+  position: relative;
+  margin: 0 auto;
+  padding: 17px;
+  height: 400px;
 }
 
-.StepBox li:nth-child(5) {
-  list-style-position: inside;
-  list-style-image: url("../images/icon_05.png");
+.Prodcut_Item_04 {
+  background-image: url(../images/product/ItemBg_04.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-color: #f5f5f500;
+  border: 0;
+  width: 100%;
+  /* max-width: 350px; */
+  position: relative;
+  margin: 0 auto;
+  padding: 17px;
+  height: 400px;
+}
+
+.Prodcut_Item_05 {
+  background-image: url(../images/product/ItemBg_05.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: transparent;
+  border: 0;
+  width: 100%;
+  max-width: 350px;
+  position: relative;
+  margin: 0 auto;
+  padding: 17px;
+  height: 400px;
+}
+
+.Card_Img_02 {
+  /* width: 70%; */
+  width: 125px;
+  height: 236px;
+  position: relative;
+  margin: 0 auto 0.5rem;
+}
+
+.Card_Img_03 {
+  width: 244px;
+  height: 105px;
+  position: relative;
+  margin: 0 auto 0.5rem;
+}
+
+.card_header {
+  margin: 0 auto;
+  /* padding: 20px 0 0; */
+  text-align: center;
+}
+
+.card-title_02 {
+  color: #6B370F;
+  font-family: 'Merriweather', serif;
+}
+
+.card_btn_02 {
+  width: 180px;
+  height: 45px;
+  color: #fff;
+  background-color: #C7793D;
 }
