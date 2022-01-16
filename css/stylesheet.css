@@ -25,7 +25,7 @@ body {
 }
 
 .pc {
-  display: block;ContBox_01
+  display: block;
 }
 
 .mobile {
@@ -41,7 +41,6 @@ body {
   height: 100vh;
   min-height: 1000px;
   overflow: hidden;
-  position: relative;
 }
 
 .Kv_Box::after {
@@ -57,19 +56,19 @@ body {
 }
 
 .Item_Img_01 {
-  width: 180px;
-  height: 376.84px;
-  left: 144px;
+  width: 131px;
+  height: 398px;
+  left: 83px;
   top: 0;
   filter: drop-shadow(0px 4px 10px rgba(28, 28, 28, 0.4));
   position: absolute;
 }
 
 .Item_Img_02 {
-  width: 116px;
-  height: 221.79px;
-  left: 1100px;
-  top: 0;
+  width: 87px;
+  height: 241px;
+  right: 660px;
+  top: 0; 
   filter: drop-shadow(0px 4px 10px rgba(28, 28, 28, 0.4));
   position: absolute;
 }
@@ -79,11 +78,30 @@ body {
   height: 883px;
   left: 990px;
   top: 90px;
+  filter: drop-shadow(0px 4px 10px rgba(28, 28, 28, 0.4));
   position: absolute;
 }
 
+.Item_Img_04 {
+  position: absolute;
+  width: 920px;
+  height: 736px;
+  left: -150px;
+  top: 800px;
+  z-index: 3;
+}
+
+/* .Item_Img_05 {
+  position: absolute;
+  width: 951px;
+  height: 646px;
+  right: -280px;
+  bottom: -580px;
+  z-index: 3;
+} */
+
 .Item_Text {
-  margin-left: 405px;
+  margin-left: 350px;
   margin-top: 170px;
 }
 
@@ -151,53 +169,36 @@ body {
   z-index: -1;
 }
 
-.Item_Img_04 {
-  position: absolute;
-  width: 920px;
-  height: 736px;
-  left: -150px;
-  top: 800px;
-  z-index: 3;
-}
+
 
 .ContBox_Title_01 {
-  font-family: Merriweather;
+  font-family: "Merriweather";
   font-style: normal;
   font-weight: bold;
-  font-size: 54px;
-  line-height: 68px;
   color: #A7231A;
   margin-bottom: 28px;
 }
 
 .ContBox_content_01 {
-  font-family: Open Sans;
+  font-family: "Open Sans";
   color: #555;
   margin-bottom: 40px;
 }
 
 .ContBox_01 ul li {
   color: #A7231A;
-  color: #A7231A;
-  display: flex;
-  align-items: center;
   margin-bottom: 30px;
 }
 
 .StepBox li::before {
   content: "";
-  width: 100px;
-  height: 63px;
-  display: block;
-  margin-right: 30px;
+  width: 80px;
+  height: 55px;
+  margin-right: 20px;
 }
 
 #Step01::before {
-  content: "";
-  background: url("../images/icon_01.png") no-repeat;
-  /* content: url("../images/icon_01.png"); */
-  /* list-style-position: inside;
-  list-style-image: url("../images/icon_01.png"); */
+  content: url("../images/icon_01.png");
 } 
 #Step02::before {
   content: url("../images/icon_02.png");
@@ -225,7 +226,6 @@ body {
   font-weight: bold;
   font-size: 54px;
   line-height: 68px;
-  /* identical to box height */
   color: #FEEED6;
 }
 
@@ -237,6 +237,14 @@ body {
   padding-top: 200px;
 }
 
+.ContBox_Title_02 {
+  font-family: "Merriweather";
+    font-style: normal;
+    font-weight: bold;
+    color: #FEEED6;
+    margin-bottom: 30px;
+}
+
 .Prodcut_Box {
   position: relative;
   padding-bottom: 100px;
@@ -244,136 +252,59 @@ body {
 
 .Prodcut_ItemBox {
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
-.Prodcut_Item_01 {
-  background-image: url(../images/product/ItemBg_01.png);
+.Prodcut_Item {
   background-repeat: no-repeat;
   background-position: bottom;
   background-color: transparent;
   border: 0;
-  width: 100%;
-  max-width: 540px;
-  height: 350px;
-  position: relative;
-  margin-bottom: 30px;
-  margin: 0 auto;
-}
-.Card_Img {
-  width: 90%;
-  position: relative;
-  margin: 0 auto;
-}
-/* .card_body {
-  text-align: center;
-  max-width: 400px;
-  margin: 0 auto;
-} */
-.card_body {
-  text-align: center;
-  max-width: 400px;
-  margin: 0 auto;
-  position: absolute;
-  bottom: 20px;
-  left: 28%;
-}
-.card-title {
-  color: #6B370F;
-  font-family: 'Merriweather', serif;
-  margin-bottom: 24px;
-}
-.card_btn {
-  color: #fff;
-  background-color: #C7793D;
+  height: 360px;
+  padding: 40px;
 }
 
 .Prodcut_Item_02 {
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: transparent;
+  border: 0;
+  height: 360px;
+  padding: 10px;
+}
+
+.Item_01 {
+  background-image: url(../images/product/ItemBg_01.png);
+}
+.Item_02 {
   background-image: url(../images/product/ItemBg_02.png);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-color: transparent;
-  border: 0;
-  width: 100%;
-  max-width: 540px;
-  height: 350px;
-  position: relative;
-  margin-bottom: 30px;
-  margin: 0 auto;
 }
-
-.Prodcut_Item_03 {
+.Item_03 {
   background-image: url(../images/product/ItemBg_03.png);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-color: transparent;
-  border: 0;
-  width: 100%;
-  max-width: 350px;
-  position: relative;
-  margin: 0 auto;
-  padding: 17px;
-  height: 400px;
 }
-
-.Prodcut_Item_04 {
+.Item_04 {
   background-image: url(../images/product/ItemBg_04.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  /* background-position: center; */
-  background-color: #f5f5f500;
-  border: 0;
-  width: 100%;
-  /* max-width: 350px; */
-  position: relative;
-  margin: 0 auto;
-  padding: 17px;
-  height: 400px;
 }
-
-.Prodcut_Item_05 {
+.Item_05 {
   background-image: url(../images/product/ItemBg_05.png);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-color: transparent;
-  border: 0;
-  width: 100%;
-  max-width: 350px;
-  position: relative;
-  margin: 0 auto;
-  padding: 17px;
-  height: 400px;
 }
 
+.Card_Img {
+  margin: -40px auto 0;
+}
 .Card_Img_02 {
-  /* width: 70%; */
-  width: 125px;
-  height: 236px;
-  position: relative;
-  margin: 0 auto 0.5rem;
+  margin: 0 auto 16px;
 }
-
-.Card_Img_03 {
-  width: 244px;
-  height: 105px;
-  position: relative;
-  margin: 0 auto 0.5rem;
-}
-
-.card_header {
-  margin: 0 auto;
-  /* padding: 20px 0 0; */
+.card_body {
   text-align: center;
+  margin: 0 auto;
 }
-
-.card-title_02 {
+.card-title {
+  margin: 20px 0;
   color: #6B370F;
   font-family: 'Merriweather', serif;
 }
-
-.card_btn_02 {
-  width: 180px;
-  height: 45px;
+.card_btn {
   color: #fff;
   background-color: #C7793D;
 }
