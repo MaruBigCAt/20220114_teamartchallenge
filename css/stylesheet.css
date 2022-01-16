@@ -43,7 +43,7 @@ body {
   overflow: hidden;
 }
 
-.Kv_Box::after {
+/* .Kv_Box::after {
   content: '';
   width: 920px;
   height: 615px;
@@ -53,7 +53,7 @@ body {
   left: 2509px;
   top: 988px;
   transform: matrix(-1, 0, 0, 1, 0, 0);
-}
+} */
 
 .Item_Img_01 {
   width: 131px;
@@ -76,7 +76,7 @@ body {
 .Item_Img_03 {
   width: 1116px;
   height: 883px;
-  left: 990px;
+  right: -180px;
   top: 90px;
   filter: drop-shadow(0px 4px 10px rgba(28, 28, 28, 0.4));
   position: absolute;
@@ -137,7 +137,7 @@ body {
 .ContBox_01 {
   width: 100%;
   height: auto;
-  background-color: #FEEED6;
+  /* background-color: #FEEED6; */
   padding-top: 200px;
   position: relative;
   z-index: 2;
@@ -162,14 +162,12 @@ body {
   position: absolute;
   top: 0;
   right: 0;
-  bottom: -130px;
+  bottom: -10%;
   left: 0;
   background-color: #FEEED6;
-  transform: skew(5deg) rotate(5deg);
+  transform: skew(4deg) rotate(4deg);
   z-index: -1;
 }
-
-
 
 .ContBox_Title_01 {
   font-family: "Merriweather";
@@ -218,15 +216,6 @@ body {
 
 .IG_Post {
   margin-top: 24px;
-}
-
-.ContBox_Title_02 {
-  font-family: Merriweather;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 54px;
-  line-height: 68px;
-  color: #FEEED6;
 }
 
 .ContBox_02 {
@@ -307,4 +296,184 @@ body {
 .card_btn {
   color: #fff;
   background-color: #C7793D;
+}
+
+@media (max-width: 1441px) {
+  .Item_Text {
+    margin-left: 230px;
+  }
+  .Item_Img_03 {
+    width: auto;
+    max-width: 930px;
+    height: 883px;
+    right: -150px;
+    top: 170px;
+  }
+  .Item_Img_04 {
+    width: auto;
+    max-width: 770px;
+    height: auto;
+    top: 730px;
+  }
+  .ContBox_01 {
+    padding-top: 110px;
+  }
+  .ContBox_01::before {
+    transform: skew(6deg) rotate(6deg);
+  }
+  .ContBox_01::after {
+    transform: skew(6deg) rotate(6deg);
+  }
+}
+
+@media (max-width: 1025px) {
+  .Kv_Box {
+    min-height: 970px;
+  }
+  .Item_Img_01 {
+    left: 30px;
+  }
+  .Item_Img_02 {
+    right: 50px;
+  }
+  .Item_Img_04 {
+    max-width: 600px;
+    top: 800px;
+  }
+  .Item_Text {
+    margin-left: 180px;
+    margin-top: 110px;
+  }
+  .Tag_Title {
+    font-size: 40px;
+    line-height: 55px;
+  }
+  .Main_Title {
+    font-size: 100px;
+    line-height: 110px;
+  }
+  .Item_Img_03 {
+    width: auto;
+    max-width: 840px;
+    height: auto;
+    right: -150px;
+    top: 320px;
+  }
+  .card-title {
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 769px) {
+  .Item_Img_01 {
+    left: -56px;
+  }
+  .Item_Img_02 {
+    right: -20px;
+    top: -60px;
+  }
+  .Item_Text {
+    margin-left: 110px;
+    margin-top: 80px;
+  }
+  .Tag_Title {
+    font-size: 32px;
+  }
+  .Main_Title {
+    font-size: 74px;
+    line-height: 80px;
+    height: 180px;
+  }
+  .Item_Img_03 {
+    width: auto;
+    max-width: 700px;
+    height: auto;
+    right: -150px;
+    top: 310px;
+  }
+  .Item_Img_04 {
+    max-width: 600px;
+  }
+  .card-title {
+    margin: 10px 0;
+  }
+  .ContBox_01 {
+    padding-top: 30px;
+  }
+}
+
+
+@media (max-width: 427px) {
+  .Kv_Box {
+    min-height: auto;
+  }
+  .Item_Img_01 {
+    display: none;
+  }
+  .Item_Img_02 {
+    display: none;
+  }
+  .Item_Text {
+    margin-left: 40px;
+    margin-top: 32px;
+  }
+  .Tag_Title {
+    font-size: 24px;
+    line-height: 20px;
+  }
+  .Main_Title {
+    font-size: 60px;
+    line-height: 60px;
+    height: 180px;
+    width: 390px;
+  }
+  .Sec_Title {
+    font-size: 23px;
+    line-height: 34px;
+  }
+  .Prodcut_Box {
+    padding-bottom: 40px;
+  }
+  .Prodcut_Item_02 {
+    padding: 20px;
+    margin: 10px;
+  }
+  .Prodcut_Item {
+    padding: 20px;
+    margin: 10px;
+  }
+  .Card_Img {
+    margin: auto 0;
+  }
+  .Item_01 {
+    background-image: url(../images/product/ItemBg_01_m.png);
+  }
+  .Item_02 {
+    background-image: url(../images/product/ItemBg_02_m.png);
+  }
+  .Prodcut_ItemBox {
+    margin-bottom: 0;
+  }
+  .ContBox_01 {
+    padding-top: 0;
+  }
+  .ContBox_01::after {
+    bottom: -3%;
+  }
+  .ContBox_02 {
+    padding-top: 90px;
+  }
+  .Item_Img_03 {
+    width: auto;
+    max-width: 500px;
+    height: auto;
+    right: -40px;
+    top: 340px;
+  }
+  .Item_Img_04 {
+    display: none;
+  }
+  .Item_05 {
+    padding-top: 20px;
+  }
 }
