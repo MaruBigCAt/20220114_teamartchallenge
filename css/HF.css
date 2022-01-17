@@ -1,13 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&family=Open+Sans:wght@400;700&family=Stardos+Stencil:wght@400;700&display=swap');
-
 .bg-dark {
   background-color: #101621;
 }
 
-img {
+/* img {
   width: 100%;
   height: auto;
-}
+} */
 
 .socialmedia_btn {
   width: 4%;
@@ -22,9 +20,12 @@ img {
   padding: 10px;
 }
 
-@media (max-width:751px) {
+@media (max-width:770px) {
+  .teamlogo {
+    width: 60%;
+  }
   .socialmedia_btn {
-    width: 8%/750*100%+vw;
+    width: 8%;
   }
 }
 
