@@ -9,38 +9,40 @@
 
 .socialmedia_btn {
   width: 4%;
-  margin: 6px 2px;
+  margin: 0 4px;
 }
 .teamlogo {
-  /*TW*/
-  width: 24%;
-  /*EN*/
-  /* width: 25%; */
-  max-width: 400px;
-  padding: 10px;
+  width: 48%;
+  max-width: 250px;
 }
 
-@media (max-width:770px) {
+@media (max-width: 1025px){
   .teamlogo {
-    width: 60%;
+    width: 29.296vw;
+    max-width: 300px;
   }
   .socialmedia_btn {
-    width: 8%;
+    width: 5.46875vw;
   }
 }
 
-
-@media (max-width:426px) {
-
-  .socialmedia {
-    padding-bottom: 10px;
-  }
-
-  .teamlogo {
-    width: 60%;
-  }
-
+@media (max-width:751px) {
   .socialmedia_btn {
-    width: 12%;
+    width: 10%;
+  }
+  .teamlogo {
+    width: 48%;
+    max-width: 250px;
+  }
+}
+
+
+@media (max-width:375px) {
+  .socialmedia_btn {
+    width: 13%;
+  }
+  .teamlogo {
+    width: 65%;
+    max-width: 250px;
   }
 }

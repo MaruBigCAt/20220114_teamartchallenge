@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500&family=Open+Sans:wght@400;600&family=Stardos+Stencil:wght@700&display=swap');
 * {
   margin: 0px;
   padding: 0px;
@@ -87,7 +88,7 @@ body {
   width: 920px;
   height: 736px;
   left: -150px;
-  top: 800px;
+  top: 710px;
   z-index: 3;
   animation: item1 2s infinite;
 }
@@ -99,7 +100,6 @@ body {
 
 .Tag_Title {
   font-family: Stardos Stencil;
-  font-style: normal;
   font-weight: normal;
   font-size: 40px;
   line-height: 55px;
@@ -107,10 +107,9 @@ body {
 }
 
 .Main_Title {
-  width: 675px;
+  width: 710px;
   height: 220px;
   font-family: Stardos Stencil;
-  font-style: normal;
   font-weight: bold;
   font-size: 100px;
   line-height: 110px;
@@ -119,7 +118,6 @@ body {
 
 .Sec_Title {
   font-family: Open Sans;
-  font-style: normal;
   font-weight: normal;
   font-size: 28px;
   line-height: 38px;
@@ -162,8 +160,7 @@ body {
 }
 
 .ContBox_Title_01 {
-  font-family: "Merriweather";
-  font-style: normal;
+  font-family: "Merriweather","Open Sans","sans-serif";
   font-weight: bold;
   color: #A7231A;
   margin-bottom: 28px;
@@ -182,6 +179,7 @@ body {
 .ContBox_01 ul li {
   color: #A7231A;
   margin-bottom: 30px;
+  word-break: break-word;
 }
 
 .StepBox li::before {
@@ -219,11 +217,10 @@ body {
 }
 
 .ContBox_Title_02 {
-  font-family: "Merriweather";
-    font-style: normal;
-    font-weight: bold;
-    color: #FEEED6;
-    margin-bottom: 30px;
+  font-family: "Merriweather","Open Sans","sans-serif";
+  font-weight: bold;
+  color: #FEEED6;
+  margin-bottom: 30px;
 }
 
 .Prodcut_Box {
@@ -283,7 +280,7 @@ body {
 .card-title {
   margin: 20px 0;
   color: #6B370F;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather","Open Sans","sans-serif";
   font-weight: bolder;
 }
 .card_btn {
@@ -297,7 +294,11 @@ body {
 
 @media (max-width: 1441px) {
   .Item_Text {
-    margin-left: 230px;
+    margin-left: 260px;
+    margin-top: 150px;
+  }
+  .Item_Img_02 {
+    right: 440px;
   }
   .Item_Img_03 {
     width: auto;
@@ -310,7 +311,8 @@ body {
     width: 100%;
     max-width: 770px;
     height: auto;
-    top: 730px;
+    top: 630px;
+    left: -400px;
   }
   .ContBox_01 {
     padding-top: 110px;
@@ -367,6 +369,9 @@ body {
 }
 
 @media (max-width: 769px) {
+  .pc {
+    display: none;
+  }
   .Item_Img_01 {
     left: -56px;
   }
@@ -411,7 +416,7 @@ body {
 
 @media (max-width: 427px) {
   .Kv_Box {
-    min-height: 740px;
+    min-height: 90vh;
   }
   .Item_Img_01 {
     display: none;
@@ -420,33 +425,38 @@ body {
     display: none;
   }
   .Item_Text {
-    margin-left: 22px;
-    margin-top: 32px;
+    margin-left: 8.1vw;
+    margin-top: 15vw;
   }
   .Tag_Title {
-    font-size: 24px;
-    line-height: 20px;
+    font-size: 5.6vw;
+    line-height: 4.6vw;
   }
   .Main_Title {
-    font-size: 60px;
-    line-height: 60px;
-    height: 180px;
-    width: 390px;
+    font-size: 15vw;
+    line-height: 15vw;
+    height: 42.15vw;
+    width: 91.33vw;
+    margin-bottom: 4.6vw;
   }
   .Sec_Title {
-    font-size: 23px;
-    line-height: 34px;
+    font-size: 6.8vw;
+    line-height: 9vw;
+    margin-bottom: 4.6vw;
   }
   .Prodcut_Box {
-    padding-bottom: 40px;
+    padding-bottom: 9.3vw;
   }
   .Prodcut_Item_02 {
-    padding: 20px;
-    margin: 10px;
+    padding: 4.6vw;
+    margin: 2.3vw;
+    /* height: 92vw; */
+    height: 80vw;
   }
   .Prodcut_Item {
-    padding: 20px;
-    margin: 10px;
+    padding: 4.6vw;
+    margin: 2.3vw;
+    height: 84.3vw;
   }
   .Card_Img {
     margin: auto 0;
@@ -467,19 +477,19 @@ body {
     bottom: -3%;
   }
   .ContBox_02 {
-    padding-top: 90px;
+    padding-top: 21vw;
   }
   .ContBox_01::before {
-    top: -40px;
+    top: -9.3vw;
   }
   .Item_Img_03 {
-    right: -90px;
-    top: 340px;
+    right: -21vw;
+    top: 94vw;
   }
   .Item_Img_04 {
     display: none;
   }
   .Item_05 {
-    margin-top: 20px;
+    margin-top: 4.6vw;
   }
 }
