@@ -107,7 +107,8 @@ body {
 }
 
 .Main_Title {
-  width: 710px;
+  /* width: 710px; */
+  width: 770px;
   height: 220px;
   font-family: Stardos Stencil;
   font-weight: bold;
@@ -425,7 +426,7 @@ body {
     display: none;
   }
   .Item_Text {
-    margin-left: 8.1vw;
+    margin-left: 4.8vw;
     margin-top: 15vw;
   }
   .Tag_Title {
